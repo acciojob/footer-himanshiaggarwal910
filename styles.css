@@ -1,1 +1,51 @@
 /* your code here */
+/* styles.css */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-section {
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+}
+
+.footer-section a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.footer-section h2 {
+    font-size: 1.2em;
+}
+
+/* Media Icons */
+.media-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.media-icons a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+    .footer-section {
+        width: 100%;
+    }
+}
